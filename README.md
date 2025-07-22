@@ -35,5 +35,4 @@ T -->|Yes| U[Allocate Resources<br/>Store Topology Hints]
 T -->|No| V[Reject Pod<br/>TopologyAffinityError]
 U --> W[Update Container Runtime]
 U --> X[Update Metrics]
-end
 ```

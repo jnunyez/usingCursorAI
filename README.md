@@ -8,7 +8,8 @@ Rather than using Cursor AI to write code I will use this tool to demistify comp
 First impression: It writes diagrams from code!
 
 ### Architecture Overview
-<diagram content="graph TB
+```mermaid
+graph TB
 A[Pod Admission Request] --> B[Topology Manager]
 B --> C{Policy Type?}
 C -->|none| D[None Policy<br/>Always allows allocation]
@@ -33,4 +34,6 @@ S --> T{Admit Pod?}
 T -->|Yes| U[Allocate Resources<br/>Store Topology Hints]
 T -->|No| V[Reject Pod<br/>TopologyAffinityError]
 U --> W[Update Container Runtime]
-U --> X[Update Metrics]"></diagram>
+U --> X[Update Metrics]
+end
+```

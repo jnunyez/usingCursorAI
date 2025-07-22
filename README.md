@@ -6,7 +6,8 @@ Rather than using Cursor AI to write code I will use this tool to demistify comp
 ## An Example: How does Topology Manager works? 
 
 First impression: It writes diagrams from code!
-[Architecture Overview](imgs/arch.png)
+
+![Architecture Overview](imgs/arch.png)
 
 <figcaption class="figure-caption text-center">
 
